@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110517F50FDDC60E00B2C9A3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110517F40FDDC60E00B2C9A3 /* SystemConfiguration.framework */; };
+		1182578F0FCF14FC009C1CD2 /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = 1182578D0FCF14FC009C1CD2 /* json.c */; };
+		11CA26B20FDC707F00778A5D /* ProgressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CA26B10FDC707F00778A5D /* ProgressCell.m */; };
+		11DF42600FD1EE5C00991ACD /* TorrentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF425F0FD1EE5C00991ACD /* TorrentData.m */; };
+		11E3B1A20FD5D3BC0033067F /* TorrentFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E3B1A10FD5D3BC0033067F /* TorrentFilter.m */; };
+		11E3B3370FD5EB2F0033067F /* json_escape.c in Sources */ = {isa = PBXBuildFile; fileRef = 11E3B3360FD5EB2F0033067F /* json_escape.c */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		464C36370FCC4C3C00BEDE38 /* Transmission.png in Resources */ = {isa = PBXBuildFile; fileRef = 464C36360FCC4C3C00BEDE38 /* Transmission.png */; };
+		467D72BE0FC4010600DEC7CB /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D72BC0FC4010600DEC7CB /* MyController.m */; };
+		467D73C20FC446DC00DEC7CB /* RemoteDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D73C10FC446DC00DEC7CB /* RemoteDaemon.m */; };
+		467D74C90FC4555700DEC7CB /* DaemonTransmission.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D74C80FC4555700DEC7CB /* DaemonTransmission.m */; };
+		4692C5AA0FCE737E00CD0283 /* DaemonSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692C5A80FCE737E00CD0283 /* DaemonSheetController.m */; };
+		4692C7440FCE8C6E00CD0283 /* TransmissionTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692C7420FCE8C6E00CD0283 /* TransmissionTabController.m */; };
+		4692C9C60FCEB52000CD0283 /* DaemonCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692C9C50FCEB52000CD0283 /* DaemonCollection.m */; };
+		46C6044F0FF3513600A9360F /* TorrentProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C6044E0FF3513600A9360F /* TorrentProgressController.m */; };
+		46E9F9920FE698B90073755D /* MyOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9F9910FE698B90073755D /* MyOutlineView.m */; };
+		46FEC1BD0FF3BF3B00BC3111 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 46FEC1BB0FF3BF3B00BC3111 /* base64.c */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		110517F40FDDC60E00B2C9A3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1182578D0FCF14FC009C1CD2 /* json.c */ = {isa = PBXFileReference; fileEncoding = 2147484165; lastKnownFileType = sourcecode.c.c; path = json.c; sourceTree = "<group>"; };
+		1182578E0FCF14FC009C1CD2 /* json.h */ = {isa = PBXFileReference; fileEncoding = 2147484165; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		11CA26B00FDC707F00778A5D /* ProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressCell.h; sourceTree = "<group>"; };
+		11CA26B10FDC707F00778A5D /* ProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressCell.m; sourceTree = "<group>"; };
+		11DF425E0FD1EE5C00991ACD /* TorrentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentData.h; sourceTree = "<group>"; };
+		11DF425F0FD1EE5C00991ACD /* TorrentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentData.m; sourceTree = "<group>"; };
+		11E3B1A00FD5D3BC0033067F /* TorrentFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentFilter.h; sourceTree = "<group>"; };
+		11E3B1A10FD5D3BC0033067F /* TorrentFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentFilter.m; sourceTree = "<group>"; };
+		11E3B3350FD5EB2F0033067F /* json_escape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_escape.h; sourceTree = "<group>"; };
+		11E3B3360FD5EB2F0033067F /* json_escape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = json_escape.c; sourceTree = "<group>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* macTransmissionGUI_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macTransmissionGUI_Prefix.pch; sourceTree = "<group>"; };
+		464C36360FCC4C3C00BEDE38 /* Transmission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Transmission.png; sourceTree = "<group>"; };
+		467D72BC0FC4010600DEC7CB /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
+		467D72BD0FC4010600DEC7CB /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		467D73C00FC446DC00DEC7CB /* RemoteDaemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteDaemon.h; sourceTree = "<group>"; };
+		467D73C10FC446DC00DEC7CB /* RemoteDaemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteDaemon.m; sourceTree = "<group>"; };
+		467D74C70FC4555700DEC7CB /* DaemonTransmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaemonTransmission.h; sourceTree = "<group>"; };
+		467D74C80FC4555700DEC7CB /* DaemonTransmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaemonTransmission.m; sourceTree = "<group>"; };
+		4692C5A80FCE737E00CD0283 /* DaemonSheetController.m */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.objc; path = DaemonSheetController.m; sourceTree = "<group>"; };
+		4692C5A90FCE737E00CD0283 /* DaemonSheetController.h */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.h; path = DaemonSheetController.h; sourceTree = "<group>"; };
+		4692C7420FCE8C6E00CD0283 /* TransmissionTabController.m */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.objc; path = TransmissionTabController.m; sourceTree = "<group>"; };
+		4692C7430FCE8C6E00CD0283 /* TransmissionTabController.h */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.h; path = TransmissionTabController.h; sourceTree = "<group>"; };
+		4692C9C40FCEB52000CD0283 /* DaemonCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaemonCollection.h; sourceTree = "<group>"; };
+		4692C9C50FCEB52000CD0283 /* DaemonCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaemonCollection.m; sourceTree = "<group>"; };
+		46C6044D0FF3513600A9360F /* TorrentProgressController.h */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.h; path = TorrentProgressController.h; sourceTree = "<group>"; };
+		46C6044E0FF3513600A9360F /* TorrentProgressController.m */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.objc; path = TorrentProgressController.m; sourceTree = "<group>"; };
+		46E9F9900FE698B90073755D /* MyOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.h; path = MyOutlineView.h; sourceTree = "<group>"; };
+		46E9F9910FE698B90073755D /* MyOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.objc; path = MyOutlineView.m; sourceTree = "<group>"; };
+		46FEC1BB0FF3BF3B00BC3111 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		46FEC1BC0FF3BF3B00BC3111 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 11; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* macTransmissionGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macTransmissionGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				110517F50FDDC60E00B2C9A3 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				467D73C40FC4473B00DEC7CB /* Data model */,
+				467D73C60FC4474F00DEC7CB /* Main window */,
+				4692C5550FCE719000CD0283 /* Add or change daemon sheet */,
+				46C604390FF350C900A9360F /* Add torrent */,
+				46FEC1B30FF3BE3100BC3111 /* Encoding & Decoding */,
+				4692CACD0FCED13F00CD0283 /* M's JSON */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* macTransmissionGUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* macTransmissionGUI */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = macTransmissionGUI;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* macTransmissionGUI_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				464C36310FCC4BE700BEDE38 /* Images */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				110517F40FDDC60E00B2C9A3 /* SystemConfiguration.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		464C36310FCC4BE700BEDE38 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				464C36360FCC4C3C00BEDE38 /* Transmission.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		467D73C40FC4473B00DEC7CB /* Data model */ = {
+			isa = PBXGroup;
+			children = (
+				11E3B1A10FD5D3BC0033067F /* TorrentFilter.m */,
+				11E3B1A00FD5D3BC0033067F /* TorrentFilter.h */,
+				4692C9C50FCEB52000CD0283 /* DaemonCollection.m */,
+				4692C9C40FCEB52000CD0283 /* DaemonCollection.h */,
+				467D73C10FC446DC00DEC7CB /* RemoteDaemon.m */,
+				467D73C00FC446DC00DEC7CB /* RemoteDaemon.h */,
+				467D74C80FC4555700DEC7CB /* DaemonTransmission.m */,
+				467D74C70FC4555700DEC7CB /* DaemonTransmission.h */,
+				11DF425F0FD1EE5C00991ACD /* TorrentData.m */,
+				11DF425E0FD1EE5C00991ACD /* TorrentData.h */,
+			);
+			name = "Data model";
+			sourceTree = "<group>";
+		};
+		467D73C60FC4474F00DEC7CB /* Main window */ = {
+			isa = PBXGroup;
+			children = (
+				467D72BC0FC4010600DEC7CB /* MyController.m */,
+				467D72BD0FC4010600DEC7CB /* MyController.h */,
+				46E9F9910FE698B90073755D /* MyOutlineView.m */,
+				46E9F9900FE698B90073755D /* MyOutlineView.h */,
+				11CA26B10FDC707F00778A5D /* ProgressCell.m */,
+				11CA26B00FDC707F00778A5D /* ProgressCell.h */,
+			);
+			name = "Main window";
+			sourceTree = "<group>";
+		};
+		4692C5550FCE719000CD0283 /* Add or change daemon sheet */ = {
+			isa = PBXGroup;
+			children = (
+				4692C5A80FCE737E00CD0283 /* DaemonSheetController.m */,
+				4692C5A90FCE737E00CD0283 /* DaemonSheetController.h */,
+				4692C7420FCE8C6E00CD0283 /* TransmissionTabController.m */,
+				4692C7430FCE8C6E00CD0283 /* TransmissionTabController.h */,
+			);
+			name = "Add or change daemon sheet";
+			sourceTree = "<group>";
+		};
+		4692CACD0FCED13F00CD0283 /* M's JSON */ = {
+			isa = PBXGroup;
+			children = (
+				11E3B3360FD5EB2F0033067F /* json_escape.c */,
+				11E3B3350FD5EB2F0033067F /* json_escape.h */,
+				1182578D0FCF14FC009C1CD2 /* json.c */,
+				1182578E0FCF14FC009C1CD2 /* json.h */,
+			);
+			name = "M's JSON";
+			sourceTree = "<group>";
+		};
+		46C604390FF350C900A9360F /* Add torrent */ = {
+			isa = PBXGroup;
+			children = (
+				46C6044E0FF3513600A9360F /* TorrentProgressController.m */,
+				46C6044D0FF3513600A9360F /* TorrentProgressController.h */,
+			);
+			name = "Add torrent";
+			sourceTree = "<group>";
+		};
+		46FEC1B30FF3BE3100BC3111 /* Encoding & Decoding */ = {
+			isa = PBXGroup;
+			children = (
+				46FEC1BB0FF3BF3B00BC3111 /* base64.c */,
+				46FEC1BC0FF3BF3B00BC3111 /* base64.h */,
+			);
+			name = "Encoding & Decoding";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* macTransmissionGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "macTransmissionGUI" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macTransmissionGUI;
+			productInstallPath = "$(HOME)/Applications";
+			productName = macTransmissionGUI;
+			productReference = 8D1107320486CEB800E47090 /* macTransmissionGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "macTransmissionGUI" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* macTransmissionGUI */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* macTransmissionGUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				464C36370FCC4C3C00BEDE38 /* Transmission.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				467D72BE0FC4010600DEC7CB /* MyController.m in Sources */,
+				467D73C20FC446DC00DEC7CB /* RemoteDaemon.m in Sources */,
+				467D74C90FC4555700DEC7CB /* DaemonTransmission.m in Sources */,
+				4692C5AA0FCE737E00CD0283 /* DaemonSheetController.m in Sources */,
+				4692C7440FCE8C6E00CD0283 /* TransmissionTabController.m in Sources */,
+				4692C9C60FCEB52000CD0283 /* DaemonCollection.m in Sources */,
+				1182578F0FCF14FC009C1CD2 /* json.c in Sources */,
+				11DF42600FD1EE5C00991ACD /* TorrentData.m in Sources */,
+				11E3B1A20FD5D3BC0033067F /* TorrentFilter.m in Sources */,
+				11E3B3370FD5EB2F0033067F /* json_escape.c in Sources */,
+				11CA26B20FDC707F00778A5D /* ProgressCell.m in Sources */,
+				46E9F9920FE698B90073755D /* MyOutlineView.m in Sources */,
+				46C6044F0FF3513600A9360F /* TorrentProgressController.m in Sources */,
+				46FEC1BD0FF3BF3B00BC3111 /* base64.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = macTransmissionGUI_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = macTransmissionGUI;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = macTransmissionGUI_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = macTransmissionGUI;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "macTransmissionGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "macTransmissionGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
